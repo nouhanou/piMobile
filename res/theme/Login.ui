@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Login" cloudDestinationProperty="Login" uiid="Form_Login" focusable="false" scrollVisible="true" layout="LayeredLayout" >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" layout="TableLayout" tableLayoutRows="6" tableLayoutColumns="1" >
+    <component type="Label" name="Label" cloudDestinationProperty="Label" text="" icon="logo.jpg" >
+    </component>
+    <component type="TextField" name="email" cloudBoundProperty="text" cloudDestinationProperty="email" text="" hint="Email" >
+      <layoutConstraint row="1" column="-1" height="-1" width="-1" align="-1" spanHorizontal="1" valign="-1" spanVertical="1" />
+    </component>
+    <component type="TextField" name="password" cloudBoundProperty="text" cloudDestinationProperty="password" text="" hint="password" >
+    </component>
+    <component type="Button" name="add" cloudDestinationProperty="Login" text="Login" >
+    </component>
+    <component type="Button" name="inscrit" cloudDestinationProperty="Login" text="Inscription" >
+    </component>
+    <component type="Button" name="Login1" cloudDestinationProperty="Login" text="Mot de passe oubli&#xe9;?" >
+    </component>
+  </component>
+</component>
